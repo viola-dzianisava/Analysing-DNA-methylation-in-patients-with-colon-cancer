@@ -1,0 +1,26 @@
+## Problem
+
+Predict is person healthy or tumor using neural nets by gender and certain genes.
+Certain genes are SEMA7A, GATA4, LHX2, SOST, CTLA4, NMNAT2, ZFP42, NPAS2, MYLK3, NUDT13, KIRREL3, FKBP6, SOST, NFATC1,  TLE4
+
+Input: gender and certain genes
+Algorithm: neural nets
+Output: healthy or tumor
+
+## Data Structure:
+
+Each row is patient data.
+
+Columns:
+1. Avg Methylation % of a certain gen.
+2. Gender
+3. Output - is patient healthy or not
+
+Example:
+Patient_id | SEMA7A | GATA4 | ...     |  Gender | Output
+
+   TCGA1      average composite value     Male      1
+
+
+
+---
